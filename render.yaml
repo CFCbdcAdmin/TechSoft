@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-web-service
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/your-username/your-repo
+    branch: main
+    autoDeploy: true
